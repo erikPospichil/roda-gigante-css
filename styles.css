@@ -8,3 +8,33 @@
   position: absolute;
   width: 55vw;
 }
+
+.linha {
+  background-color: black;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform-origin: 0% 0%;
+  width: 50%;
+}
+
+.linha:nth-of-type(2) {
+  transform: rotate(60deg);
+}
+
+.linha:nth-of-type(3) {
+  transform: rotate(120deg);
+}
+
+.linha:nth-of-type(4) {
+  transform: rotate(180deg);
+}
+
+.linha:nth-of-type(5) {
+  transform: rotate(240deg);
+}
+
+.linha:nth-of-type(6) {
+  transform: rotate(300deg);
+}
