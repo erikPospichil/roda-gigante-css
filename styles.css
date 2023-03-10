@@ -1,0 +1,10 @@
+.roda {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 55vw;
+  margin-left: 50px;
+  max-height: 500px;
+  max-width: 500px;
+  position: absolute;
+  width: 55vw;
+}
