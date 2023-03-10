@@ -44,6 +44,7 @@
 }
 
 .cabine {
+  animation: cabines 10s ease-in-out infinite;
   background-color: red;
   border: 2px solid;
   height: 20%;
@@ -88,5 +89,23 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes cabines {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: purple;
+  }
+  75% {
+    background-color: yellow;
+  }
+  100% {
+    transform: rotate(-360deg);
   }
 }
